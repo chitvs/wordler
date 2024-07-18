@@ -42,6 +42,8 @@ python3 wordle.py
 
 The program will prompt you to enter feedback for each guess in the form of `g` (green), `y` (yellow), and `b` (black).
 
+![Example:](wordle.gif)
+
 ### Running Simulations
 
 To run the solver on all possible Wordle solutions and evaluate performance:

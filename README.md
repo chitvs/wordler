@@ -52,7 +52,7 @@ To run the solver on all possible Wordle solutions and evaluate performance:
 python3 wordle_auto.py
 ```
 
-This will simulate solving the puzzle for each word in `allowed_words.txt` and print the number of guesses needed for each solution, as well as the average number of guesses and othere data.
+This will simulate solving the puzzle for each word in `allowed_words.txt` and print the number of guesses needed for each solution, as well as the average number of guesses and other data.
 
 ## Code Overview
 

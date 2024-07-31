@@ -28,6 +28,7 @@ This program can be further optimized by calculating entropy after each guess. B
 - `data/nyt_words.txt`: List of NYT Wordle allowed words.
 - `data/solutions.txt`: List of all possible solutions.
 - `data/freq_map.json`: JSON file with word frequency data used to score guesses.
+- Other data files: Additional files can be added to enhance the solver's efficiency by providing more information for guess optimization.
 
 ## Usage
 

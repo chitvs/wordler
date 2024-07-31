@@ -40,10 +40,10 @@ def find_best_guess(possible, data):
 def wordle_solver():
     # Main function to solve Wordle.
     # Load word lists and frequency map
-    possible = load_word_list('allowed_words.txt')
+    possible = load_word_list('data/allowed_words.txt')
     guess = ["crane"]
     
-    with open('freq_map.json', 'r') as file:
+    with open('data/freq_map.json', 'r') as file:
         data = json.load(file)
     
     result = False

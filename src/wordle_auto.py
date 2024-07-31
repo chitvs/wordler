@@ -20,7 +20,7 @@ def filter_words(input_list, feedback, current_guess):
     
 def solutions():
     # Load all solutions from 'solutions.txt'
-    with open('solutions.txt', 'r') as file:
+    with open('data/solutions.txt', 'r') as file:
         solutions = [line.strip().split()[0].lower() for line in file]
     return solutions
 
@@ -81,9 +81,9 @@ def wordle_solver_auto(solution, allowed_words, data):
 def run_all_solutions_auto():
     # Run the solver for all possible solutions with automatic feedback generation.
     solutions_list = solutions()
-    allowed_words = load_word_list('allowed_words.txt')
+    allowed_words = load_word_list('data/allowed_words.txt')
     words_guessed = 0
-    with open('freq_map.json', 'r') as file:
+    with open('data/freq_map.json', 'r') as file:
         data = json.load(file)
     
     total_guesses = 0

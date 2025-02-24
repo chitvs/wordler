@@ -1,4 +1,4 @@
-# Wordle Solver
+# Wordle solver
 
 This project contains a Python program designed to solve the popular word game **Wordle**. The solver uses strategic guessing and feedback processing to efficiently narrow down the list of possible solutions, aiming to solve the puzzle in the fewest possible guesses.
 
@@ -19,7 +19,7 @@ This program can be further optimized by calculating entropy after each guess. B
 - JSON file containing a frequency map (`data/freq_map.json`)
 - Text file containing allowed words (`data/allowed_words.txt`)
 
-## File Structure
+## File structure
 
 - `src/wordle_solver.py`: Main program file containing the Wordle solver logic.
 - `src/wordle_auto.py`: Script to run simulations and evaluate performance.
@@ -32,7 +32,7 @@ This program can be further optimized by calculating entropy after each guess. B
 
 ## Usage
 
-### Running the Solver
+### Running the solver
 
 To run the Wordle solver for a single interactive session:
 
@@ -43,14 +43,14 @@ To run the Wordle solver for a single interactive session:
    cd /path/to/wordle-solver
    ```
 
-2. **Execute the Solver Script**:
+2. **Execute the solver script**:
    Run the `wordle.py` script located in the `src` directory:
 
    ```sh
    python3 src/wordle.py
    ```
 
-3. **Interactive Session**:
+3. **Interactive session**:
    The program will prompt you to enter feedback for each guess. Feedback should be in the format of `g` (green), `y` (yellow), and `b` (black), where:
    
    - `g` indicates that a letter is correct and in the correct position.
@@ -61,7 +61,7 @@ To run the Wordle solver for a single interactive session:
 
 ![Example](wordle.gif)
 
-### Running Simulations
+### Running simulations
 
 To run the solver on all possible Wordle solutions and evaluate its performance:
 
@@ -72,7 +72,7 @@ To run the solver on all possible Wordle solutions and evaluate its performance:
    cd /path/to/wordle-solver
    ```
 
-2. **Run the Simulation Script**:
+2. **Run the simulation script**:
    Execute the `wordle_auto.py` script located in the `src` directory:
 
    ```sh
@@ -81,9 +81,9 @@ To run the solver on all possible Wordle solutions and evaluate its performance:
 
    This will simulate solving the puzzle for each word in `data/allowed_words.txt` and print the number of guesses needed for each solution, as well as the average number of guesses and other performance data.
 
-## Code Overview
+## Code overview
 
-### Main Functions
+### Main functions
 
 - `load_word_list(filename)`: Loads a list of 5-letter words from a file.
 - `filter_words(input_list, feedback, current_guess)`: Filters words based on feedback for each letter and position.

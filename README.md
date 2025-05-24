@@ -21,13 +21,28 @@ This program can be further optimized by calculating entropy after each guess. B
 
 ## File structure
 
+```
+src/
+├── wordle_solver.py          
+├── wordle_auto.py             
+├── data/
+│   ├── allowed_words.txt
+│   ├── possible_words.txt    
+│   ├── nyt_words.txt          
+│   ├── solutions.txt          
+│   ├── freq_map.json         
+│   └── ...                    
+```
+
+where:
+
 - `src/wordle_solver.py`: Main program file containing the Wordle solver logic.
 - `src/wordle_auto.py`: Script to run simulations and evaluate performance.
-- `data/allowed_words.txt`: List of all allowed 5-letter words.
-- `data/possible_words.txt`: List of 5-letter words with a higher probability of being the solution.
-- `data/nyt_words.txt`: List of NYT Wordle allowed words.
-- `data/solutions.txt`: List of all possible solutions.
-- `data/freq_map.json`: JSON file with word frequency data used to score guesses.
+- `src/data/allowed_words.txt`: List of all allowed 5-letter words.
+- `src/data/possible_words.txt`: List of 5-letter words with a higher probability of being the solution.
+- `src/data/nyt_words.txt`: List of NYT Wordle allowed words.
+- `src/data/solutions.txt`: List of all possible solutions.
+- `src/data/freq_map.json`: JSON file with word frequency data used to score guesses.
 - Other data files: Additional files can be added to enhance the solver's efficiency by providing more information for guess optimization.
 
 ## Usage

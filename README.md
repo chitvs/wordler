@@ -4,10 +4,10 @@ This project contains a Python program designed to solve the popular word game *
 
 ## Features
 
-- **Strategic Initial Guess**: Starts with an optimal guess to cover common letters.
-- **Feedback Processing**: Filters the list of possible words based on feedback from guesses.
-- **Best Guess Selection**: Uses letter frequencies to select the next guess that maximizes information gain.
-- **Simulation Mode**: Runs the solver on all possible Wordle solutions to evaluate its performance.
+- **Strategic initial guess**: starts with an optimal guess to cover common letters.
+- **Feedback processing**: filters the list of possible words based on feedback from guesses.
+- **Best guess selection**: uses letter frequencies to select the next guess that maximizes information gain.
+- **Simulation mode**: runs the solver on all possible Wordle solutions to evaluate its performance.
 
 ## Optimization
 
@@ -36,7 +36,7 @@ This program can be further optimized by calculating entropy after each guess. B
 
 To run the Wordle solver for a single interactive session:
 
-1. **Navigate to the Project Directory**:
+1. **Navigate to the project directory**:
    Change to the root directory of your project where the `src` folder is located:
 
    ```sh
@@ -65,7 +65,7 @@ To run the Wordle solver for a single interactive session:
 
 To run the solver on all possible Wordle solutions and evaluate its performance:
 
-1. **Navigate to the Project Directory**:
+1. **Navigate to the project directory**:
    Change to the root directory of your project:
 
    ```sh

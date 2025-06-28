@@ -83,7 +83,7 @@ To run the solver on all possible Wordle solutions and evaluate its performance:
    cd /path/to/wordler
    ```
 
-2. **Run the simulation script**: run the `wordle_auto.py` script located in the `src` directory:
+2. **Execute the simulation script**: run the `wordle_auto.py` script located in the `src` directory:
 
    ```sh
    python src/wordle_auto.py

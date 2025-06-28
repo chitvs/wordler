@@ -23,7 +23,7 @@ This program can be further optimized by calculating entropy after each guess. B
 
 ```
 src/
-├── wordle_solver.py          
+├── wordle.py          
 ├── wordle_auto.py             
 ├── data/
 │   ├── allowed_words.txt
@@ -36,7 +36,7 @@ src/
 
 where:
 
-- `src/wordle_solver.py`: main program file containing the Wordle solver logic.
+- `src/wordle.py`: main program file containing the Wordle solver logic.
 - `src/wordle_auto.py`: script to run simulations and evaluate performance.
 - `src/data/allowed_words.txt`: list of all allowed 5-letter words.
 - `src/data/possible_words.txt`: list of 5-letter words with a higher probability of being the solution.

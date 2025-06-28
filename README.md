@@ -74,7 +74,7 @@ To run the Wordle solver for a single interactive session:
 
    Provide your guesses and feedback as prompted.
 
-![Example](wordle.gif)
+![Example](wordler.gif)
 
 ### Running simulations
 

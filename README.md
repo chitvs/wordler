@@ -107,10 +107,6 @@ To run the solver on all possible Wordle solutions and evaluate its performance:
 - `wordle_solver_auto(solution, allowed_words, data)`: solves Wordle for a given solution with automatic feedback generation.
 - `run_all_solutions_auto()`: runs the solver for all possible solutions and prints performance statistics.
 
-## Contributing
-
-Contributions are welcome! Feel free to open an issue or submit a pull request.
-
 ## License
 
 This project is licensed under the MIT License.

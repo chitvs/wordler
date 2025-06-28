@@ -52,27 +52,24 @@ where:
 To run the Wordle solver for a single interactive session:
 
 1. **Navigate to the project directory**:
-   Change to the root directory of your project where the `src` folder is located:
 
    ```sh
-   cd /path/to/wordle-solver
+   cd /path/to/wordler
    ```
 
-2. **Execute the solver script**:
-   Run the `wordle.py` script located in the `src` directory:
+2. **Execute the solver script**: run the `wordle.py` script located in the `src` directory:
 
    ```sh
-   python3 src/wordle.py
+   python src/wordle.py
    ```
 
-3. **Interactive session**:
-   The program will prompt you to enter feedback for each guess. Feedback should be in the format of `g` (green), `y` (yellow), and `b` (black), where:
-   
+3. **Interactive session**: the program will prompt you to enter feedback for each guess. Feedback should be in the format of `g` (green), `y` (yellow), and `b` (black), where:
+
    - `g` indicates that a letter is correct and in the correct position.
    - `y` indicates that a letter is correct but in the wrong position.
    - `b` indicates that a letter is not in the solution.
 
-   Provide your guesses and feedback as prompted.
+Provide your guesses and feedback as prompted.
 
 ![Example](wordler.gif)
 
@@ -81,17 +78,15 @@ To run the Wordle solver for a single interactive session:
 To run the solver on all possible Wordle solutions and evaluate its performance:
 
 1. **Navigate to the project directory**:
-   Change to the root directory of your project:
 
    ```sh
-   cd /path/to/wordle-solver
+   cd /path/to/wordler
    ```
 
-2. **Run the simulation script**:
-   Execute the `wordle_auto.py` script located in the `src` directory:
+2. **Run the simulation script**: run the `wordle_auto.py` script located in the `src` directory:
 
    ```sh
-   python3 src/wordle_auto.py
+   python src/wordle_auto.py
    ```
 
    This will simulate solving the puzzle for each word in `src/data/allowed_words.txt` and print the number of guesses needed for each solution, as well as the average number of guesses and other performance data.

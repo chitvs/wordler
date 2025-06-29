@@ -1,6 +1,6 @@
-# Wordler
+# Wordler, a Python Wordle solver
 
-This project contains a Python program designed to solve the popular word game **Wordle**. The solver uses strategic guessing and feedback processing to efficiently narrow down the list of possible solutions, aiming to solve the puzzle in the fewest possible guesses.
+Wordler is a Python program designed to solve the popular word game **Wordle**. The solver uses strategic guessing and feedback processing to efficiently narrow down the list of possible solutions, aiming to solve the puzzle in the fewest possible guesses.
 
 ## Features
 

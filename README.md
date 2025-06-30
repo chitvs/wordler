@@ -51,19 +51,25 @@ where:
 
 To run the Wordle solver for a single interactive session:
 
-1. **Navigate to the project directory**:
+1. **Clone the repository**:
 
    ```sh
-   cd /path/to/wordler
+   git clone https://github.com/chitvs/wordler.git
    ```
 
-2. **Execute the solver script**: run the `wordle.py` script located in the `src` directory:
+2. **Navigate to the project directory**:
+
+   ```sh
+   cd wordler
+   ```
+
+3. **Execute the solver script**: run the `wordle.py` script located in the `src` directory:
 
    ```sh
    python src/wordle.py
    ```
 
-3. **Interactive session**: the program will prompt you to enter feedback for each guess. Feedback should be in the format of `g` (green), `y` (yellow), and `b` (black), where:
+4. **Interactive session**: the program will prompt you to enter feedback for each guess. Feedback should be in the format of `g` (green), `y` (yellow), and `b` (black), where:
 
    - `g` indicates that a letter is correct and in the correct position.
    - `y` indicates that a letter is correct but in the wrong position.
@@ -77,13 +83,19 @@ Provide your guesses and feedback as prompted.
 
 To run the solver on all possible Wordle solutions and evaluate its performance:
 
-1. **Navigate to the project directory**:
+1. **Clone the repository**:
 
    ```sh
-   cd /path/to/wordler
+   git clone https://github.com/chitvs/wordler.git
    ```
 
-2. **Execute the simulation script**: run the `wordle_auto.py` script located in the `src` directory:
+2. **Navigate to the project directory**:
+
+   ```sh
+   cd wordler
+   ```
+
+3. **Execute the simulation script**: run the `wordle_auto.py` script located in the `src` directory:
 
    ```sh
    python src/wordle_auto.py

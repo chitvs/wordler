@@ -91,4 +91,3 @@ def wordle_solver():
 
 if __name__ == "__main__":
     wordle_solver()
-    

@@ -1,5 +1,5 @@
 """
-Wordler -- A Python Wordle solver
+Wordler -- A Python Wordle solver.
 
 MIT License
 
